@@ -1,0 +1,34 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1700580141071,
+      "tag": "0000_salty_ulik",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1700580242853,
+      "tag": "0001_charming_white_queen",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1700580389137,
+      "tag": "0002_same_may_parker",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1700580654283,
+      "tag": "0003_busy_dark_phoenix",
+      "breakpoints": true
+    }
+  ]
+}
