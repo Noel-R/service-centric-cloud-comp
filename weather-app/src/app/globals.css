@@ -8,7 +8,7 @@
   }
 
   body, html {
-    @apply overflow-hidden noscroll;
+    @apply overflow-hidden noscroll w-screen h-screen;
   }
 
   .noscroll::-webkit-scrollbar {
@@ -19,4 +19,8 @@
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
   }
+}
+
+@layer components {
+
 }
