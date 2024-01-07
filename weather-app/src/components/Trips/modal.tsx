@@ -200,7 +200,7 @@ const EditModal = (props: ModalProps) => {
             <dialog id={"trip-dialog-"+trip.uuid} className="modal overflow-visible w-full" onClose={() => setSelected(() => false)}>
                 <div className="modal-box w-max flex flex-col justify-center bg-transparent p-4">
                     <div className="card card-compact bg-white max-w-[400px] place-self-center ring-4 ring-transparent">
-                        <figure><Image src={photo} width={400} alt={trip.location.name}/></figure>
+                        <figure><img src={photo} alt={trip.location.name}/></figure>
                         <div className="card-body">
                             <div className="card-title text-2xl mb-0">Edit Trip</div>
                             <div className="divider my-0 h-2"></div>
@@ -306,7 +306,7 @@ const ViewModal = (props: ViewProps) => {
             <dialog id={"trip-view-"+trip.uuid} className="modal overflow-visible w-full" onClose={() => setOpen(() => false)}>
                 <div className="modal-box w-max flex flex-col justify-center bg-transparent p-4">
                     <div className="card card-compact bg-white max-w-[400px] place-self-center ring-4 ring-transparent">
-                        <figure><Image src={photo} width={400} alt={trip.location.name}/></figure>
+                        <figure><img src={photo} alt={trip.location.name}/></figure>
                         <div className="card-body">
                             <article className="prose prose-2xl max-w-xs prose-headings:underline prose-headings:mb-0 text-xl font-medium">
                                 <h1>{trip.name}</h1>

@@ -203,7 +203,7 @@ const Trip = (props: TripContext) => {
     return mounted ? ( 
         <>
             <div id={"trip-card-" + trip.uuid} className="card card-compact bg-white shadow-2xl rounded-2xl max-w-[400px] m-2 h-96 transition-all ease-in-out duration-500">
-                { photo == "" ? null : <figure><Image src={photo} width={400} alt={trip.location.name}/></figure> }
+                { photo == "" ? null : <figure><img src={photo} alt={trip.location.name}/></figure> }
                 <div className="card-body">
                     <div className="card-title text-3xl whitespace-break-spaces m-0">{trip.name}</div>
                     <div className="divider m-0"></div>
